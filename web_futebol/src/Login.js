@@ -19,15 +19,15 @@ function loginForm(){
 	            	<button type="submit" className="form-control btn btn-primary submit px-3 me-2" style={{fontFamily:'Graduate'}}>Sign In</button>
                     <button type="" className="form-control btn btn-primary submit px-3" style={{fontFamily:'Graduate'}}>Sign Up</button>
 	            </div>
-	            <div className="form-group d-md-flex">
-	            	<div className="w-50">
-		            	<label className="checkbox-wrap checkbox-primary">Remember Me
-									  <input type="checkbox" checked></input>
+	            <div className="form-group d-flex justify-content-between">
+	            	<div className="w-50 text-center">
+		            	<label className="checkbox-wrap checkbox-primary" style={{ fontFamily:'Graduate' }}>Remember Me
+									  <input className="form-check-input" type="checkbox" style={{ marginLeft: '5px' }}></input>
 									  <span className="checkmark"></span>
 									</label>
 								</div>
-								<div className="w-50 text-md-right">
-									<a href="#" style={{color: 'black'}}>Forgot Password</a>
+								<div className="w-50 text-md-right text-center">
+									<a href="#" style={{color: 'black',fontFamily:'Graduate',textDecoration:'underline'}}>Forgot Password</a>
 								</div>
 	            </div>
 	          </form>
