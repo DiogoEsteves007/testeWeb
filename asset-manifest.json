@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/testeWeb/static/css/main.b223ac1d.css",
+    "main.js": "/testeWeb/static/js/main.3fd1a377.js",
+    "static/js/787.fed4022d.chunk.js": "/testeWeb/static/js/787.fed4022d.chunk.js",
+    "static/media/phoneLogin_Bg.png": "/testeWeb/static/media/phoneLogin_Bg.8c86e4940bf933b2d2b2.png",
+    "index.html": "/testeWeb/index.html",
+    "main.b223ac1d.css.map": "/testeWeb/static/css/main.b223ac1d.css.map",
+    "main.3fd1a377.js.map": "/testeWeb/static/js/main.3fd1a377.js.map",
+    "787.fed4022d.chunk.js.map": "/testeWeb/static/js/787.fed4022d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b223ac1d.css",
+    "static/js/main.3fd1a377.js"
+  ]
+}
