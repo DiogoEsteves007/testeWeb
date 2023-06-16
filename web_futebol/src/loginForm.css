@@ -1,0 +1,132 @@
+.form-control.FormInputs{
+    background: transparent;
+    border: none;
+    height: 50px;
+    color: rgb(0, 0, 0) !important;
+    border: 1px solid transparent;
+    background: rgba(255, 255, 255, 0.466);
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.form-group{
+    margin: 10px
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;}
+
+    /*BackUP Media-Quer*/
+    @media (min-width: 576px) {
+        .container {
+            max-width: 540px; }  
+        }
+    @media (min-width: 768px) {
+      .container {
+        max-width: 720px; }
+        }
+    @media (min-width: 992px) {
+      .container {
+        max-width: 960px; }
+       }
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1140px; } 
+         }
+
+
+/* Extra Small (XS) */
+@media (max-width: 575.98px) {
+  body{
+    background-image: url(../img/phoneLogin_Bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+  }
+  
+  /* Small (SM) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    body{
+      background-image: url(../img/phoneLogin_Bg.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+  }
+  }
+  
+  /* Medium (MD) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    body{
+      background-image: url(../img/phoneLogin_Bg.png);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+  }
+  }
+
+  /* Large (LG) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    body{
+      background-image: url(../img/phoneLogin_Bg.png);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+  }
+  }
+  
+  /* Extra Large (XL) */
+  @media (min-width: 1200px) {
+    body{
+      background-image: url(../img/phoneLogin_Bg.png);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+  } 
+  }
